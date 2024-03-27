@@ -1,0 +1,241 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-image: url(images/black.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with navigation */
+header {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 24px;
+   
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: flex;
+    margin-right: 20px;
+    align-items: end;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* Style the about section */
+.about {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: #555;
+}
+
+/* Style the footer */
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Make the header and footer text larger */
+header, footer {
+    font-size: 18px;
+}
+
+/* Style links in the navigation */
+.nav-links a, .cta-button {
+    transition: background-color 0.3s;
+}
+.footer,
+.footer a{
+    color: #999;
+    font-size: 0.9rem;
+    
+}
+.footer p{
+    margin-bottom: 1.5rem;
+    padding-left: 50px;  
+}
+.footer .footer_cols{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;  
+    padding-left: 50px; 
+    background-color: transparent; 
+}
+.footer li{
+    line-height: 1.9;
+}
+/* Style for the header */
+header {
+    background-color:transparent0; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Style for the logo */
+  .logo a {
+    background-image: url('images/SC\ logo\ .png'); /* Replace 'your-logo.png' with your logo file path */
+    background-size: contain; /* Adjust the sizing as needed */
+    display: inline-block;
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: 100px; /* Adjust the height of the logo as needed */
+    text-indent: -9999px; /* Hide the text */
+  }
+  
+  /* Style for the navigation links */
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+    align-items: center;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+    align-items: center;
+  }
+  /* Style for the Sign Out button */
+.nav-links li:last-child a {
+    background-color: transparent; /* Background color for the button */
+    color: #fff; /* Text color for the button */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth hover effect */
+    position: absolute;
+  top: 10px; /* Adjust the top value as needed */
+  right: 10px; /* Adjust the right value as needed */
+}
+
+.nav-links li:last-child a:hover {
+    background-color: #cc0000; /* Background color on hover */
+}
+.card_one,
+.card_two,
+.card_three{
+    border-top: 8px rgb(69, 69,69);
+    padding: 50px;
+}
+.card_one{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.discription_one{
+    padding-left: 80px;
+    color: white;
+}
+.card_one img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+
+}
+.style_cards h1{
+   font-size: 3rem;
+   padding: 1rem;
+   padding-left: 0;
+}
+.style_cards h3{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.card_two{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    
+    padding: 25px 45px 50px;
+}
+.discription_two{
+    padding-left: 100px;
+    color: white;
+}
+.card_three{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.discription_three{
+    padding-left: 80px;
+    padding-right: 20px;
+    color: white;
+}
+.card_three img{
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+.para{
+    font-style: italic;
+}
+.para1{
+    font-style: inherit;
+}

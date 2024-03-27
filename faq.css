@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/black.jpg);
+    background-size: cover;
+  }
+  .faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .faq {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  .question {
+    cursor: pointer;
+    background-color: #f7f7f7;
+    padding: 10px;
+  }
+  .answer {
+    display: none;
+    padding: 10px;
+    background-color: white;
+  }
+  .search-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
